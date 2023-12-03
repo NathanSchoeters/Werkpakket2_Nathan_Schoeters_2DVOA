@@ -1,0 +1,64 @@
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illustrashop</title>
+    <link rel="icon" href="./assets/favicon/favicon-16x16.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/570fd61456.js" crossorigin="anonymous"></script>
+</head>
+<body id="top"> 
+    <header class="navbar">
+        <div class="navbar-logo">
+            <img class="logo-img" src="assets/Illustrashop.png" alt="My Logo">
+        </div>
+        <nav class="navbar-navigation">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="./index.html">Home</a></li>
+                <li class="nav-list-item"><a href="./overzicht.html">Products</a></li>
+                <li class="nav-list-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="navbar-buttons">
+            <a href="./login.html"><button type="button" class="navbar-button"><i class="fa-solid fa-user"></i></button></a>
+            <a href=""><button type="button" class="navbar-button"><i class="fa-solid fa-cart-shopping"></i></button></a>
+        </div>
+    </header>
+
+    <section class="productSection">
+        <div class="productContainer">
+            <h1 class="productContainer-name">Ahsoka Sticker</h1>
+            <div class="productInfo">
+                <div class="productInfo-left">
+                    <img class="productInfo-left-image" src="./assets/Illustration1.png" alt="Product Image">
+                </div>
+                <div class="productInfo-right">
+                    <h1 class="productInfo-right-price">€1.50</h1>
+                    <p class="productInfo-right-text">Introducing our high-quality stickers, the perfect way to add a touch of personality to your belongings. 
+                        Our stickers are made from durable materials, ensuring they stay vibrant and intact, no matter where you place them. 
+                        Elevate your style and make a statement with these versatile stickers, the ideal choice for customization and self-expression.
+                    </p>
+                    <div class="ProductInfo-right-counter">
+                        <button class="counter-button"type="button">-</button>
+                        <input class="counter-input" type="text" placeholder="1">
+                        <button class="counter-button" type="button">+</button>
+                    </div>
+                    <button class="ProductInfo-right-button" type="button">Add to cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <h1 class="footer-title">Contact</h1>
+        <div class="footer-contact">
+            <ul class="footer-contact-list">
+                <li class="footer-contact-list-item"><i class="fa-solid fa-phone"></i> 0477 95 65 88</li>
+                <li class="footer-contact-list-item"><i class="fa-solid fa-envelope"></i> Illustrashop@outlook.com</li>
+            </ul>
+        </div>
+        <h1 class="footer-title"><a class="footer-title-link" href="#top"><i class="fa-solid fa-circle-arrow-up footer-icon"></i></a></h1>
+    </footer>
+</body>
+</html>
